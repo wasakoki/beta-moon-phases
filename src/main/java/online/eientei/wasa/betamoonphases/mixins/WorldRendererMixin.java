@@ -1,11 +1,11 @@
-package online.eientei.wasa.moonphases.mixins;
+package online.eientei.wasa.betamoonphases.mixins;
 
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.render.Tessellator;
 import net.minecraft.client.render.WorldRenderer;
 import net.minecraft.level.Level;
-import online.eientei.wasa.moonphases.interfaces.MoonStuffs;
+import online.eientei.wasa.betamoonphases.interfaces.MoonStuffs;
 import org.lwjgl.opengl.GL11;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
@@ -24,7 +24,7 @@ public class WorldRendererMixin implements MoonStuffs {
         return (Minecraft) FabricLoader.getInstance().getGameInstance();
     }
     private static int getTextureID() {
-        return getInstance().textureManager.getTextureId("/assets/moonphases/moon_phases.png");
+        return getInstance().textureManager.getTextureId("/assets/betamoonphases/moon_phases.png");
     }
     @Override @Unique public int moonTime(long j1) {
         return (int)(j1 / 24000L) % 8;

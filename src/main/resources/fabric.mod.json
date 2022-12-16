@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "moonphases",
+  "id": "betamoonphases",
   "version": "${version}",
 
   "name": "Beta Moon Phases",
@@ -14,13 +14,13 @@
   },
 
   "license": "MIT",
-  "icon": "assets/moonphases/icon.png",
+  "icon": "assets/betamoonphases/icon.png",
 
   "environment": "*",
   "entrypoints": {
   },
   "mixins": [
-    "moonphases.mixins.json"
+    "betamoonphases.mixins.json"
   ],
 
   "depends": {

@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "online.eientei.wasa.moonphases.mixins",
+  "package": "online.eientei.wasa.betamoonphases.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
