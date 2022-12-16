@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "moonphases",
+  "version": "${version}",
+
+  "name": "Beta Moon Phases",
+  "description": "Backports moon phases from future versions of minecraft.",
+  "authors": [
+    "wasa"
+  ],
+  "contact": {
+    "homepage": "https://github.com/wasakoki/beta-moon-phases",
+    "sources": "https://github.com/wasakoki/beta-moon-phases"
+  },
+
+  "license": "MIT",
+  "icon": "assets/moonphases/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "moonphases.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "1.0.0-beta.7.3"
+  }
+}
